@@ -1,0 +1,38 @@
+--- 
+cassandra: 
+  hosts: 
+    - dse-server
+  keyspace: busdomain_demo16
+  password: cassandra
+  port: 9042
+  username: cassandra
+kafka: 
+  group: busdomain_demo16
+  hosts: 
+    - "172.22.4.61"
+  port: 9092
+  topics: 
+    - 
+      Family: metadata
+      Name: ac.init.metadata.busdomain_demo16
+      Partitions: 1
+    - 
+      Family: txn
+      Name: ac.init.txn.busdomain_demo16
+      Partitions: 8
+    - 
+      Family: derived
+      Name: ac.init.timeseries.busdomain_demo16
+      Partitions: 12
+services:
+  auth:
+    host: "http://acx-auth-rest-service:8080"
+    signature-key: TEST_SIGNATURE_KEY
+  merkle: 
+    host: "http://acx-merkle-rest-service:1080/v1"
+    password: merklerpass
+    username: merkler
+solr: 
+  hosts: 
+    - dse-server
+  port: 8983

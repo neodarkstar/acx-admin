@@ -1,0 +1,17 @@
+suffix: "santander50k_120_9"
+prefix: "ac"
+mode: "init"
+replicationFactor: 3
+topics:
+  - type: metadata
+    partitions: 1
+  - type: txn
+    partitions: 8
+  - type: derived
+    partitions: 12
+kafka:
+  servers:
+    - "172.22.4.61"
+dse:
+  servers:
+    - "172.22.4.11"
