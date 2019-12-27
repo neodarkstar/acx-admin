@@ -27,27 +27,7 @@ func TestLoadConfig(t *testing.T) {
 		t.Error("Invalid Solr Hosts")
 	}
 
-	if config.Kafka.ReplicationFactor != "3" {
-		t.Error("Invalid Replication Factor")
-	}
-
 	if config.Cassandra.ReplicationFactor != "3" {
 		t.Error("Invalid Replication Factor")
-	}
-
-	if len(config.Kafka.Topics) != 3 {
-		t.Error("Invalid Topics")
-	}
-
-	if config.Kafka.Topics[0].Family != "metadata" {
-		t.Error("Invalid Topic Family")
-	}
-
-	if config.Kafka.Topics[0].Partitions != "1" {
-		t.Error("Invalid Partition Count")
-	}
-
-	if config.Kafka.Group != "busdomain_demo16" {
-		t.Error("Invalid Group")
 	}
 }
