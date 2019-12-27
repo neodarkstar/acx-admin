@@ -27,6 +27,14 @@ func TestLoadConfig(t *testing.T) {
 		t.Error("Invalid Solr Hosts")
 	}
 
+	if config.Kafka.ReplicationFactor != "3" {
+		t.Error("Invalid Replication Factor")
+	}
+
+	if config.Cassandra.ReplicationFactor != "3" {
+		t.Error("Invalid Replication Factor")
+	}
+
 	if len(config.Kafka.Topics) != 3 {
 		t.Error("Invalid Topics")
 	}

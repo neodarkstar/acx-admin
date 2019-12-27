@@ -6,6 +6,10 @@ cassandra:
   password: cassandra
   port: 9042
   username: cassandra
+  ## If local, replace with replication_factor
+  datacenter: replication_factor
+  class: SimpleStrategy
+  replicationFactor: 3
 kafka: 
   group: busdomain_demo16
   hosts: 
@@ -24,6 +28,7 @@ kafka:
       Family: derived
       Name: ac.init.timeseries.busdomain_demo16
       Partitions: 12
+  replicationFactor: 3
 services:
   auth:
     host: "http://acx-auth-rest-service:8080"

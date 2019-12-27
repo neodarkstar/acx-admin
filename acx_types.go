@@ -9,18 +9,22 @@ type ACXSuiteConfig struct {
 
 // CassandraConf basic cassandra configuration
 type CassandraConf struct {
-	Username string
-	Password string
-	Hosts    []string
-	Port     string
+	Username          string
+	Password          string
+	Hosts             []string
+	Port              string
+	Datacenter        string
+	class             string
+	ReplicationFactor string
 }
 
 // KafkaConfig basic kafka configuration
 type KafkaConfig struct {
-	Topics []KafkaTopic
-	Group  string
-	Hosts  []string
-	Port   string
+	Topics            []KafkaTopic
+	Group             string
+	Hosts             []string
+	Port              string
+	ReplicationFactor string
 }
 
 // KafkaTopic configuration with acx-plus
