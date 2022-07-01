@@ -1,0 +1,256 @@
+[
+  {
+    "id": 0,
+    "commitTime": 1645530604720,
+    "processId": "",
+    "sourceId": 100,
+    "sourceName": "acdbaref",
+    "userId": "acdbaref",
+    "comment": "",
+    "changes": [
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.DATE",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 1,
+        "type": "integer",
+        "value": [
+          "20220222:115004:000"
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_COMMENT",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "string",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_DWNLD_TIME",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "timestamp",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_EMAIL_ACK",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "string",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_ERR_FILENM",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "string",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_FEEDFILENM",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "string",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_INTRFC",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 1,
+        "type": "string",
+        "value": [
+          "THOMSON_REUTERS_DATASCOPE_PLUS"
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_RUNDATE",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 1,
+        "type": "integer",
+        "value": [
+          "20220221:"
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_STATUS",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 1,
+        "type": "string",
+        "value": [
+          "TO_DOWNLOAD"
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_TASK",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 1,
+        "type": "string",
+        "value": [
+          "DSP_SEGMENT_10"
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_UPLD_END_TIME",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "timestamp",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      },
+      {
+        "objectId": "SCB.TRK_ADO",
+        "attributeId": "FILEWATCHER_TRACK.SCB_UPLD_START_TIME",
+        "extraKeysId": "SCB_INTRFC|THOMSON_REUTERS_DATASCOPE_PLUS|SCB_TASK|DSP_SEGMENT_10|SCB_RUNDATE|20220221:|",
+        "recordedOn": 1645530604720,
+        "appliesAt": 1645530604000,
+        "datamodelId": "",
+        "classId": "",
+        "status": 0,
+        "type": "timestamp",
+        "value": [
+          null
+        ],
+        "lineage": {
+          "type": "scope",
+          "name": "timeseries.data",
+          "children": [],
+          "sources": []
+        }
+      }
+    ],
+    "corrections": [],
+    "relatedChanges": []
+  },
+  "a"
+]
