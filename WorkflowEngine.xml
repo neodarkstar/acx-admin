@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!-- $Id: WorkflowEngineConfigTemplate.xml,v 1.7.6.2 2010-06-08 05:33:04 bjb Exp $ -->
+<workflowengine xmlns="http://www.asset-control.com/workflow/engine">
+        <!-- Ac Server configuration -->
+        <acServer>
+                <hostname>uklpauacl04a.uk.dev.net</hostname>
+                <user>acdba_uat3_ref</user>
+                <!--<password>acserver-password</password>-->
+                <passwordfile>/mrs/home/acdba_uat3_ref/ac/files/auto_logon/acdba_uat3_ref</passwordfile>
+                <installation>acdba_uat3_ref</installation>
+                <maxQueryServerThreads>8</maxQueryServerThreads>
+                <maxUpdateServerThreads>8</maxUpdateServerThreads>
+                <queryTimeout>1800</queryTimeout>
+                <updateTimeout>1800</updateTimeout>
+                <queryCompressionLevel>0</queryCompressionLevel>
+                <updateCompressionLevel>0</updateCompressionLevel>
+        </acServer>
+        <!-- Transaction Listener -->
+        <transactionListener>
+                <host>uklpauacl04a.uk.dev.net</host>
+                <rpcAddress>536890965</rpcAddress>
+                <replicatorCompressionLevel>0</replicatorCompressionLevel>
+                <replicatorTimeOut>1800</replicatorTimeOut>
+                <maxReplicatorThreads>8</maxReplicatorThreads>
+        </transactionListener>
+        <!-- Workflow configuration -->
+        <workflows>
+                <workflowDefinitionsConfFile>conf/sampleWorkflowDefinitions.xml</workflowDefinitionsConfFile>
+<!-- START OF EXTERNALLY MANAGED SECTION - DO NOT EDIT -->
+<workflowDefinitionsConfFile>conf/workflow_bfee1b40f8c8d771b1ec1753c43909bec40f2456a9224949d9a629c75da81ee2.xml</workflowDefinitionsConfFile>
+<!-- END EXTERNALLY MANAGED SECTION -->
+        </workflows>
+        <folderstructure>
+                <folderStructureConfFile>conf/sampleFolderStructure.xml</folderStructureConfFile>
+<!-- START OF EXTERNALLY MANAGED SECTION - DO NOT EDIT -->
+<folderStructureConfFile>conf/folders_bfee1b40f8c8d771b1ec1753c43909bec40f2456a9224949d9a629c75da81ee2.xml</folderStructureConfFile>
+<!-- END EXTERNALLY MANAGED SECTION -->
+        </folderstructure>
+        <!-- Storage -->
+        <storage>
+                <cookieExpiryTime>180000</cookieExpiryTime>
+                <cacheCleaningInterval>240000</cacheCleaningInterval>
+                <itemHistory>false</itemHistory>
+        </storage>
+        <!-- Workflow Query Server-->
+        <workflowQueryServer>
+                <rpcAddress>536890966</rpcAddress>
+                <rpcPort>0</rpcPort>
+        </workflowQueryServer>
+        <!-- Timerule evaluator -->
+        <timeruleEvaluator>
+                <timeRuleEvalTime>600000</timeRuleEvalTime>
+        </timeruleEvaluator>
+</workflowengine>
